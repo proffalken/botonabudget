@@ -242,6 +242,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#the-hardware" class="md-nav__link">
+    <span class="md-ellipsis">
+      The hardware
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#docker-and-docker-compose" class="md-nav__link">
     <span class="md-ellipsis">
       Docker and Docker Compose
@@ -325,6 +334,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#the-hardware" class="md-nav__link">
+    <span class="md-ellipsis">
+      The hardware
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#docker-and-docker-compose" class="md-nav__link">
     <span class="md-ellipsis">
       Docker and Docker Compose
@@ -372,6 +390,11 @@
 </figcaption>
 </figure>
 <p>We'll also be using <a href="https://app.foxglove.dev/">Foxglove</a> as our primary environment for viewing and sending data, as it has a much lower barrier to entry (and a nicer user interface!) than the built-in tools of ROS2 such as RViz.</p>
+<h2 id="the-hardware">The hardware</h2>
+<p>I'm using a <a href="https://www.gl-inet.com/products/gl-mt300n-v2/">travel router</a> for all my devices to connect to because you can power them via USB and they have a built-in 2.5GHz capability which is what most embedded boards need.</p>
+<p>It also means I've got a dedicated network for everything related to this robot, so as long as my laptop is connected to the travel router, I should be able to see all the devices.</p>
+<p>The travel router is then connected to my home network via the WAN interface, providing everything that is connected to the router with full internet access as well.</p>
+<p>All the other code runs on my laptop, however I plan to move it to a Pi 5 or similar that can live on the robot itself once I've got everything working!</p>
 <h2 id="docker-and-docker-compose">Docker and Docker Compose</h2>
 <p>Docker has rapidly become the standard for building container-based workloads across the IT Industry, with more advanced deployment methods such as Kubernetes leaning heavily on the Docker container format.</p>
 <p>In this project Kubernetes is too complicated for our needs, however Docker Compose gives us a really simple environment that we can use to launch multiple containers (we'll need them!) and keep the control side of things as modular as the hardware side.</p>
