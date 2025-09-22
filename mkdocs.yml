@@ -15,3 +15,5 @@ markdown_extensions:
   - pymdownx.blocks.caption
 plugins:
   - glightbox
+  - social
+copyright: Copyright &copy; 2025 Matthew Macdonald-Wallace (Proffalken)
