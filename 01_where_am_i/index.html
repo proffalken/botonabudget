@@ -301,6 +301,21 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="How do we know it worked?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#checking-in-foxglove" class="md-nav__link">
+    <span class="md-ellipsis">
+      Checking in Foxglove
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -385,6 +400,21 @@
       How do we know it worked?
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="How do we know it worked?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#checking-in-foxglove" class="md-nav__link">
+    <span class="md-ellipsis">
+      Checking in Foxglove
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -807,6 +837,8 @@
 <p>The simplest way to check it's worked is to listen to the ROS2 topic.</p>
 <p>Depending on how you installed ROS2, you need to run <code>ros2 topic list /gps/fix</code> and you should see the same data (in a slightly different format!) arriving on the topic.</p>
 <p>Once you see that data, you can start to visualise it in your UI of choice, and I'll cover that in a later section.</p>
+<h3 id="checking-in-foxglove">Checking in Foxglove</h3>
+<p>If you're running Foxglove, you can add a <code>Map</code> panel and select the <code>/gps/fix</code> topic as the source - you should see your device turn up on the map at it's current location, although you may need to zoom in to see it properly!</p>
 
 
 
