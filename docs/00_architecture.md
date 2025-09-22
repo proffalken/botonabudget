@@ -58,3 +58,9 @@ services:
 ```
 
 If you add the above file to your project and then run `docker compose up`, you should see devices connect and data arrive in Foxglove as we add the sensors and actuators.
+
+## Observability
+
+I've been fascinated in how we can improve the knowledge of the software we write and the systems we manage for most of my career, and so I want to make sure that I fully understand what the code is actually doing on our microcontrollers as part of this project.
+
+I'll be using the [Embedded Open Telemetry library](https://github.com/proffalken/otel-embedded-cpp) library that I wrote recently to instrument the code as we go, and will be using [Grafana](https://grafana.com) to visualise the metrics, logs, and traces as they flow through the system.
