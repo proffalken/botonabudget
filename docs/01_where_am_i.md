@@ -9,6 +9,8 @@ To do this, we're going to use two simple components:
 
 The Pi Pico W will connect to both the GPS module via a Serial connection and our ROS2 Framework via WiFi in order to send the location data into the control system.
 
+![The Pi Pico W and the GPS Module](pipicogps.jpg)
+
 ## What are we collecting?
 
 The data we're collecting is as follows:

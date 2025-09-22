@@ -19,6 +19,16 @@ The data is collected by the sensors and passed to a microcontroller, which then
 
 We'll also be using [Foxglove](https://app.foxglove.dev/) as our primary environment for viewing and sending data, as it has a much lower barrier to entry (and a nicer user interface!) than the built-in tools of ROS2 such as RViz.
 
+## The hardware
+
+I'm using a [travel router](https://www.gl-inet.com/products/gl-mt300n-v2/) for all my devices to connect to because you can power them via USB and they have a built-in 2.5GHz capability which is what most embedded boards need.
+
+It also means I've got a dedicated network for everything related to this robot, so as long as my laptop is connected to the travel router, I should be able to see all the devices.
+
+The travel router is then connected to my home network via the WAN interface, providing everything that is connected to the router with full internet access as well.
+
+All the other code runs on my laptop, however I plan to move it to a Pi 5 or similar that can live on the robot itself once I've got everything working!
+
 ## Docker and Docker Compose
 
 Docker has rapidly become the standard for building container-based workloads across the IT Industry, with more advanced deployment methods such as Kubernetes leaning heavily on the Docker container format.
