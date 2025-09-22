@@ -1,6 +1,6 @@
 # Bot on a budget
 
-Welcome to Bot on a Budget, where I'm documenting my attempts to build a fully autonomous guided vehicle with the minimal amount of spending money.
+Welcome to Bot on a Budget, where I'm documenting my attempts to build a fully autonomous mobile robot with the minimal amount of spending money.
 
 A lot of the components I'm using are ones that I've had lying around on my workbench for various failed projects for years, but whatever else I buy, I'm going to try and keep the cost for each component to under £20 (GBP) unless absolutely unavoidable.
 
