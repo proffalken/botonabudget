@@ -368,7 +368,7 @@
 <p>Welcome to Bot on a Budget, where I'm documenting my attempts to build a fully autonomous guided vehicle with the minimal amount of spending money.</p>
 <p>A lot of the components I'm using are ones that I've had lying around on my workbench for various failed projects for years, but whatever else I buy, I'm going to try and keep the cost for each component to under £20 (GBP) unless absolutely unavoidable.</p>
 <h2 id="whats-the-end-goal">What's the end goal?</h2>
-<p>By the time I'm finished, I want to have an Autonomously Guided Vehicle (AGV) with the following features:</p>
+<p>By the time I'm finished, I want to have an Autonomous Mobile Robot (AMR) with the following features:</p>
 <ol>
 <li>Fully managed and controlled via <a href="https://docs.ros.org/en/rolling/index.html">ROS2</a></li>
 <li>Knows where it is based on GPS</li>
@@ -388,7 +388,7 @@ meaning that I need to connect the messages from various boards together as a si
 <p>I'm a stickler for standardising things to try and make things easier, so I'll be doing my best to follow these approaches and standards:</p>
 <ul>
 <li><a href="https://opentelemetry.io">OpenTelemetry (OTEL)</a> - OTEL is rapidly becoming the industry standard for logs, metrics, traces, and profiling web applications, so I'm going to apply it to robotics as well!</li>
-<li><a href="https://en.wikipedia.org/wiki/Unix_philosophy">The Unix Philosophy</a> - Often summarised as "Do one thing and do it well", I'll be making the AGV as modular as possible so I can upgrade in future.  Using ROS2 as the control platform will make this a lot easier as I'll be able to upgrade modules to more powerful hardware in future whilst retaining message compatibility and avoiding a rewrite of the entire framework.</li>
+<li><a href="https://en.wikipedia.org/wiki/Unix_philosophy">The Unix Philosophy</a> - Often summarised as "Do one thing and do it well", I'll be making the AMR as modular as possible so I can upgrade in future.  Using ROS2 as the control platform will make this a lot easier as I'll be able to upgrade modules to more powerful hardware in future whilst retaining message compatibility and avoiding a rewrite of the entire framework.</li>
 </ul>
 
 

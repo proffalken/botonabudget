@@ -461,7 +461,7 @@
 
 
 <h1 id="01-where-am-i">01. Where Am I?</h1>
-<p>The first task I want to tackle is to make sure the Autonomous Guided Vehicle knows where it is at all times.</p>
+<p>The first task I want to tackle is to make sure the Autonomous Mobile Robot knows where it is at all times.</p>
 <p>To do this, we're going to use two simple components:</p>
 <ul>
 <li>A Raspberry Pi Pico W</li>
@@ -481,7 +481,7 @@
 <h2 id="what-do-we-need-to-do">What do we need to do?</h2>
 <h3 id="preparing-micro-ros-to-run-via-platformio">Preparing Micro Ros to run via PlatformIO</h3>
 <p>The first thing we need to do is setup our PlatformIO installation so we can use it with MicroROS.</p>
-<p>For the purposes of this AGV I'm going to be using the Arduino framework rather than the RP2040 SDK as there are a wider range of libraries available for us to capitalise on.</p>
+<p>For the purposes of this AMR I'm going to be using the Arduino framework rather than the RP2040 SDK as there are a wider range of libraries available for us to capitalise on.</p>
 <p>To do this, we need a <code>platformio.ini</code> file with the following content:</p>
 <div class="language-ini highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="c1">; PlatformIO Project Configuration File</span>
 </span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="c1">;</span>
