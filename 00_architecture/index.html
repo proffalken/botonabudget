@@ -250,6 +250,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#observability" class="md-nav__link">
+    <span class="md-ellipsis">
+      Observability
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -324,6 +333,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#observability" class="md-nav__link">
+    <span class="md-ellipsis">
+      Observability
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -387,6 +405,9 @@
 </span><span id="__span-0-27"><a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a><span class="w">    </span><span class="nt">command</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="s">"udp4"</span><span class="p p-Indicator">,</span><span class="s">"--port"</span><span class="p p-Indicator">,</span><span class="s">"8888"</span><span class="p p-Indicator">,</span><span class="s">"-v6"</span><span class="p p-Indicator">]</span>
 </span></code></pre></div>
 <p>If you add the above file to your project and then run <code>docker compose up</code>, you should see devices connect and data arrive in Foxglove as we add the sensors and actuators.</p>
+<h2 id="observability">Observability</h2>
+<p>I've been fascinated in how we can improve the knowledge of the software we write and the systems we manage for most of my career, and so I want to make sure that I fully understand what the code is actually doing on our microcontrollers as part of this project.</p>
+<p>I'll be using the <a href="https://github.com/proffalken/otel-embedded-cpp">Embedded Open Telemetry library</a> library that I wrote recently to instrument the code as we go, and will be using <a href="https://grafana.com">Grafana</a> to visualise the metrics, logs, and traces as they flow through the system.</p>
 
 
 
