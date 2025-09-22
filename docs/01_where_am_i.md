@@ -1,6 +1,6 @@
 # 01. Where Am I?
 
-The first task I want to tackle is to make sure the Autonomous Guided Vehicle knows where it is at all times.
+The first task I want to tackle is to make sure the Autonomous Mobile Robot knows where it is at all times.
 
 To do this, we're going to use two simple components:
 
@@ -28,7 +28,7 @@ This gives us enough data to report back on our location with confidence and for
 
 The first thing we need to do is setup our PlatformIO installation so we can use it with MicroROS.
 
-For the purposes of this AGV I'm going to be using the Arduino framework rather than the RP2040 SDK as there are a wider range of libraries available for us to capitalise on.
+For the purposes of this AMR I'm going to be using the Arduino framework rather than the RP2040 SDK as there are a wider range of libraries available for us to capitalise on.
 
 To do this, we need a `platformio.ini` file with the following content:
 

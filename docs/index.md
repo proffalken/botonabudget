@@ -6,7 +6,7 @@ A lot of the components I'm using are ones that I've had lying around on my work
 
 ## What's the end goal?
 
-By the time I'm finished, I want to have an Autonomously Guided Vehicle (AGV) with the following features:
+By the time I'm finished, I want to have an Autonomous Mobile Robot (AMR) with the following features:
 
    1. Fully managed and controlled via [ROS2](https://docs.ros.org/en/rolling/index.html)
    2. Knows where it is based on GPS
@@ -26,6 +26,6 @@ meaning that I need to connect the messages from various boards together as a si
 I'm a stickler for standardising things to try and make things easier, so I'll be doing my best to follow these approaches and standards:
 
 * [OpenTelemetry (OTEL)](https://opentelemetry.io) - OTEL is rapidly becoming the industry standard for logs, metrics, traces, and profiling web applications, so I'm going to apply it to robotics as well!
-* [The Unix Philosophy](https://en.wikipedia.org/wiki/Unix_philosophy) - Often summarised as "Do one thing and do it well", I'll be making the AGV as modular as possible so I can upgrade in future.  Using ROS2 as the control platform will make this a lot easier as I'll be able to upgrade modules to more powerful hardware in future whilst retaining message compatibility and avoiding a rewrite of the entire framework.
+* [The Unix Philosophy](https://en.wikipedia.org/wiki/Unix_philosophy) - Often summarised as "Do one thing and do it well", I'll be making the AMR as modular as possible so I can upgrade in future.  Using ROS2 as the control platform will make this a lot easier as I'll be able to upgrade modules to more powerful hardware in future whilst retaining message compatibility and avoiding a rewrite of the entire framework.
 
 
