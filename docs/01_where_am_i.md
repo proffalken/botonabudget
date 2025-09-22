@@ -429,3 +429,7 @@ The simplest way to check it's worked is to listen to the ROS2 topic.
 Depending on how you installed ROS2, you need to run `ros2 topic list /gps/fix` and you should see the same data (in a slightly different format!) arriving on the topic.
 
 Once you see that data, you can start to visualise it in your UI of choice, and I'll cover that in a later section.
+
+### Checking in Foxglove
+
+If you're running Foxglove, you can add a `Map` panel and select the `/gps/fix` topic as the source - you should see your device turn up on the map at it's current location, although you may need to zoom in to see it properly!
