@@ -47,7 +47,7 @@ services:
     volumes:
       - ./ws:/ws
     environment:
-      - RMW_IMPLMENTATION=rmw_fastrtps_cpp
+      - RMW_IMPLEMENTATION=rmw_fastrtps_cpp
       - ROS_DOMAIN_ID=0
     command: >
       bash -lc '
@@ -62,7 +62,7 @@ services:
     volumes:
       - ./ws:/ws
     environment:
-      - RMW_IMPLMENTATION=rmw_fastrtps_cpp
+      - RMW_IMPLEMENTATION=rmw_fastrtps_cpp
       - ROS_DOMAIN_ID=0
     command: ["udp4","--port","8888","-v6"]
 ```
